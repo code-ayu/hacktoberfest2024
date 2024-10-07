@@ -1,4 +1,4 @@
-def student_average (student_marks, query_name):
+def student_average (srudent_marks, query_name):
     for key, value in student_marks.items():
         if key == query_name:
             average_score =  sum (value) / len (value)
